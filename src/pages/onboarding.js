@@ -1,6 +1,5 @@
 import React from 'react';
-import Logo from '@/components/general/logo';
-import Nav from '@/components/onboarding/Nav';
+import MainHeader from '@/components/general/GeneralHeader';
 import QuestionHead from '@/components/onboarding/QuestionHead';
 import { Button } from '@/components/general/Button';
 import { useRouter } from 'next/router';
@@ -9,8 +8,7 @@ export default function onboarding() {
     
     return (
     <>
-    <Nav />
-    <Logo />
+    <MainHeader />
     <section className="py-5">
         <div className="container">
             <div className="row bg-pattern rounded-3 p-7 g-0">

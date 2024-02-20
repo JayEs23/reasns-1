@@ -5693,7 +5693,7 @@ fieldset:disabled .btn {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
+    padding: 10px;
     position: relative;
 }
 .navbar > .container,
@@ -19334,7 +19334,7 @@ button:focus {
     margin-right: 0.255em;
 }
 .navbar {
-    background-color: var(--bs-body-bg);
+    background-color: transparent;
     box-shadow: 0 0.125rem 0.25rem rgba(2, 6, 23, 0.075);
     padding: 0.5rem;
 }
