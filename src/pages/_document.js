@@ -9,6 +9,7 @@ export default function Document() {
         <link rel="icon" type="" href="/logo.png" />
 
         <link rel="stylesheet" href="/styles.css" />
+        <link rel="stylesheet" href="/bootstrap-btn.min.css" />
       </Head>
       <body>
         <Main />

@@ -1,29 +1,118 @@
-.btn {
-    width: Fixed (171px);
-    height: Fixed (49.62px);
+.login-btn {
+    width: 150px;
+    height: 49.62px;
     top: 62px;
     left: 1004px;
-    padding: 11.24px, 18.74px, 11.24px, 18.74px;
-    border-radius: 7.5px;
-    border-color: #ff1313;
+    padding: 11.24px;
+    border: 1px solid !important;
+    border-color: #ff1313 !important;
+    position: sticky;
+    color: #fff;
+    cursor: pointer;
+    background-color: transparent !important;
 }
 
-.btn:hover {
-    cursor: pointer;
-    border-color: #ff1313;
+.login-btn:hover {
+    background: #fff !important;
+    color: #ff1313 !important;
+}
+
+.login-btn-container{
+    margin-right: 15rem;
 }
 
 .head-container {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
-.logo-container {
-    width: Fixed (401px);
-    height: Hug (68px);
+.logo-div {
+    width: 401px;
+    height: 68px;
     top: 53px;
-    padding: 16px, 16px, 16px, 12px;
-    border: 0px, 0px, 1px, 0px #fff;
+    padding: 16px;
+    border-bottom: 1px solid #ffffff36;
     gap: 4px;
+    display: flex;
+    justify-content: center;
+}
 
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo p{
+    margin-bottom: 0;
+    font-size: 25px;
+    margin-left: 5px;
+}
+
+.actual-logo {
+    max-width: 25px;
+    max-height: 25px;
+}
+
+.container {
+    position: absolute;
+    left: 0;
+}
+
+.whole-content {
+    margin-left: 0 !important;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-text {
+    max-width: 770px !important;
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-text {
+    width: 62%;
+    text-align: center;
+    align-self: center;
+    font-size: 22.3px;
+}
+
+.question-header {
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+}
+
+.customized-text {
+    color: #ff1313;
+    text-transform: uppercase;
+}
+
+.btns-sect {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.btns-sect button{
+    margin-inline: .5rem;
+    width: 100%;
+}
+
+.grey {
+    background: #d9d9d9 !important;
+    color: #ff1313 !important;
+    border: none !important;
+}
+
+.grey:hover {
+    color: #ff1313 !important;
+    background: #fff !important;
 }
