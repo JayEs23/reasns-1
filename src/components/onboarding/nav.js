@@ -10,7 +10,7 @@ export default function Nav() {
             <li><a href="">Profiles</a></li>
             <li><a href="">Log in/Sign up</a></li>
         </div>
-    </ul>
+      </ul>
     </nav>
   );
 }
