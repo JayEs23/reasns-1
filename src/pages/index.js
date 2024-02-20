@@ -1,9 +1,15 @@
 import React from 'react';
-import Header from '@src/components/landing/Header';
-import ContentHead from '@src/components/general/ContentHead';
-import {Button, LoginButton} from '@src/components/general/Button';
+import Header from '@/components/landing/Header';
+import ContentHead from '@/components/general/ContentHead';
+import {Button, LoginButton} from '@/components/general/Button';
+import { useRouter } from 'next/router';
 
 export default function Landing() {
+  const router = useRouter();
+
+    const redirectToOnboarding = () => {
+        router.push('/onboarding');
+    }
   return (
     <>
       <div className='head-container'>
@@ -23,7 +29,7 @@ export default function Landing() {
                           </div>
                           <div className="btns-sect">
                               <Button text={'View Profiles'} className='fw-bold fs-4 rounded-pill' />
-                              <Button text={'SIGN UP'} className='grey fw-bold fs-4 rounded-pill'/>
+                              <Button text={'SIGN UP'} performAction={redirectToOnboarding} className='grey fw-bold fs-4 rounded-pill'/>
                           </div>
                       </div>
                   </div>

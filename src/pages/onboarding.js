@@ -1,11 +1,13 @@
 import React from 'react';
-import Logo from '@src/components/general/logo';
-import Nav from '@src/components/onboarding/Nav';
-import QuestionHead from '@src/components/onboarding/QuestionHead';
-import { Button } from '@src/components/general/Button';
+import Logo from '@/components/general/logo';
+import Nav from '@/components/onboarding/Nav';
+import QuestionHead from '@/components/onboarding/QuestionHead';
+import { Button } from '@/components/general/Button';
+import { useRouter } from 'next/router';
 
 export default function onboarding() {
-  return (
+    
+    return (
     <>
     <Nav />
     <Logo />
@@ -28,5 +30,5 @@ export default function onboarding() {
         </div>
     </section>
     </>
-  )
+    )
 }
