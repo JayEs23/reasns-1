@@ -1,4 +1,4 @@
-import Logo from "@/components/logo";
+import Logo from "@/components/general/Logo";
 import Nav from "@/components/onboarding/Nav";
 
 export default function MainHeader() {
