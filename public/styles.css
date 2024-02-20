@@ -116,3 +116,9 @@
     color: #ff1313 !important;
     background: #fff !important;
 }
+
+.nav-bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
