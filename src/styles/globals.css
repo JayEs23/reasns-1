@@ -35,10 +35,6 @@ footer{
   width: 100%;
 }
 
-::-webkit-scrollbar {
-  
-}
-
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
