@@ -7,6 +7,7 @@ const Button = ({ text, bgColor, performAction }) => {
 Button.PropTypes = {
     text: PropTypes.string.isRequired,
     bgcolor: PropTypes.string,
+    borColor: PropTypes.string,
     performAction: PropTypes.func.isRequired
 }
 

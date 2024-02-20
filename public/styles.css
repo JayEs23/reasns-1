@@ -1,0 +1,29 @@
+.btn {
+    width: Fixed (171px);
+    height: Fixed (49.62px);
+    top: 62px;
+    left: 1004px;
+    padding: 11.24px, 18.74px, 11.24px, 18.74px;
+    border-radius: 7.5px;
+    border-color: #ff1313;
+}
+
+.btn:hover {
+    cursor: pointer;
+    border-color: #ff1313;
+}
+
+.head-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-container {
+    width: Fixed (401px);
+    height: Hug (68px);
+    top: 53px;
+    padding: 16px, 16px, 16px, 12px;
+    border: 0px, 0px, 1px, 0px #fff;
+    gap: 4px;
+
+}
